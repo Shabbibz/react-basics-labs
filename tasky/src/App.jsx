@@ -77,6 +77,8 @@ const formChangeHandler = (event) => {
         form = formState;
   }
   setFormState(form);
+  console.log(formState);
+
 }
 
 
