@@ -14,26 +14,6 @@ const Task = (props) => {
             </div>
     )
 
-
-
 }
-
-<div className="container">
-<h1>Tasky</h1>
-{taskState.tasks.map((task, index) => (              
-  <Task 
-    title={task.title}
-    description={task.description}
-    deadline={task.deadline}
-    key={task.id}
-    done={task.done}
-    markDone={() => doneHandler(index)}
-    deleteTask = {() => deleteHandler(index)}
-  />
-))}
-<AddTaskForm />
-</div>
-
-
 
 export default Task;
