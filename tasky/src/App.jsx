@@ -50,14 +50,8 @@ function App() {
   ))}
 <AddTaskForm change={formChangeHandler} />
       
-
-
     </div>
-
-    
   );
-  
-
 
 }
 const formChangeHandler = (event) => {
@@ -77,9 +71,9 @@ const formChangeHandler = (event) => {
         form = formState;
   }
   setFormState(form);
-  console.log(formState);
 
 }
+console.log(formState);
 
 
 export default App;
